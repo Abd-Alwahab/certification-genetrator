@@ -1,0 +1,84 @@
+
+  .doc {
+  
+    width: 70%;
+    background-color: rgba(8, 110, 25, 0.596);
+    color: #fff;
+    box-shadow: 1rem 1rem 2rem rgb(0, 0, 0);
+    margin: 3rem auto 0 auto;
+    text-align: center;
+    padding: 3rem 0;
+
+  
+  
+  }
+  
+  
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  input {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 6rem;
+    display: block;
+    box-shadow: .5rem .5rem 1rem rgba(8, 0, 0, 0.459);
+    margin: 0 auto 2.5rem auto;
+  }
+  
+
+  
+  
+  select {
+    display: block;
+    margin: 0 auto;  
+    border: none;
+    padding: .7rem 4rem;
+    font-size: 1.3re;
+  }
+  
+  option {
+    
+    padding: 2rem;
+  }
+  
+  
+  
+  
+  button {
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 5rem;
+    background-color: rgb(2, 92, 209);
+    box-shadow: .4rem .4rem 1rem #000;
+    color: #fff;
+    transition: all 1s;
+    font-weight: bold;
+    transform: translateY(-3px);
+  }
+  
+  
+  button:hover {
+    box-shadow: .2rem .2rem 1rem rgb(88, 88, 88);
+    cursor: pointer;
+    transform: translateY(0);
+    background-color: #000;
+  }
+  
+  
+
+/*     
+  <label for="cars">ادخل نوع الشهادة من فضلك</label>
+  //   <select value={this.state.certi} id="type" onChange={this.getcertificate}>
+  //   <option value="BSC.">بكللوريس</option>
+  //   <option value="M.">ماجستير</option>
+  //   <option value="Phd.">دكتوراة</option>
+  // </select>  */

@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ 
+
+
+.buttons {
+    
+    width: 100%;
+    background: #000;
+    border-bottom: 3px solid #000;
+    height: 6rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.item {
+    margin-right: 3.5rem;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+  
+}
+
+
+a {
+
+    font-size: 1.1rem;
+    color: #fff;
+    display: block;
+    line-height: 3rem;
+    height: 100%;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: all .5s;
+
+
+}
+
+a:hover {
+    background-color: #999;
+}
+
+
+.active {
+    background-color: rgb(179, 146, 18);
+}
